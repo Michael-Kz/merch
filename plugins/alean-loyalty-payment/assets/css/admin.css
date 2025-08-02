@@ -1,0 +1,276 @@
+/**
+ * Alean Loyalty Payment Admin Styles
+ * 
+ * @package Alean Loyalty Payment
+ * @since 1.0.0
+ */
+
+.alean-loyalty-admin-tabs {
+    margin-top: 20px;
+}
+
+.alean-loyalty-admin-tabs .nav-tab-wrapper {
+    margin-bottom: 20px;
+}
+
+.alean-loyalty-admin-tabs .nav-tab {
+    margin-right: 5px;
+}
+
+.alean-loyalty-admin-tabs .tab-content {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    border-top: none;
+}
+
+.alean-loyalty-logs {
+    margin-top: 15px;
+}
+
+.alean-loyalty-logs pre {
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    line-height: 1.4;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+}
+
+#test-results {
+    margin-top: 15px;
+}
+
+#test-results .notice {
+    margin: 0;
+}
+
+.alean-loyalty-settings-section {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.alean-loyalty-settings-section h3 {
+    margin-top: 0;
+    color: #23282d;
+}
+
+.alean-loyalty-status {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.alean-loyalty-status.success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alean-loyalty-status.error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.alean-loyalty-status.warning {
+    background: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeaa7;
+}
+
+.alean-loyalty-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.alean-loyalty-stat-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.alean-loyalty-stat-card h4 {
+    margin: 0 0 10px 0;
+    color: #666;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.alean-loyalty-stat-card .stat-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007cba;
+    margin: 0;
+}
+
+.alean-loyalty-form-group {
+    margin-bottom: 15px;
+}
+
+.alean-loyalty-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.alean-loyalty-form-group input[type="text"],
+.alean-loyalty-form-group input[type="url"],
+.alean-loyalty-form-group input[type="password"],
+.alean-loyalty-form-group textarea {
+    width: 100%;
+    max-width: 400px;
+}
+
+.alean-loyalty-form-group .description {
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.alean-loyalty-button {
+    background: #007cba;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.alean-loyalty-button:hover {
+    background: #005a87;
+}
+
+.alean-loyalty-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.alean-loyalty-button.secondary {
+    background: #6c757d;
+}
+
+.alean-loyalty-button.secondary:hover {
+    background: #545b62;
+}
+
+.alean-loyalty-button.danger {
+    background: #dc3545;
+}
+
+.alean-loyalty-button.danger:hover {
+    background: #c82333;
+}
+
+.alean-loyalty-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+.alean-loyalty-table th,
+.alean-loyalty-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.alean-loyalty-table th {
+    background: #f8f9fa;
+    font-weight: 600;
+}
+
+.alean-loyalty-table tr:hover {
+    background: #f5f5f5;
+}
+
+.alean-loyalty-modal {
+    display: none;
+    position: fixed;
+    z-index: 100000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.alean-loyalty-modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+}
+
+.alean-loyalty-modal-close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.alean-loyalty-modal-close:hover {
+    color: #000;
+}
+
+.alean-loyalty-loading {
+    text-align: center;
+    padding: 20px;
+}
+
+.alean-loyalty-loading::after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #007cba;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .alean-loyalty-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .alean-loyalty-modal-content {
+        width: 95%;
+        margin: 10% auto;
+    }
+    
+    .alean-loyalty-table {
+        font-size: 12px;
+    }
+    
+    .alean-loyalty-table th,
+    .alean-loyalty-table td {
+        padding: 8px;
+    }
+}
