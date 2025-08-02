@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "ManropeRegular"; 
+  font-display: swap;
+  src: url("/wp-content/plugins/backend/assets/fonts/Manrope-Regular.ttf"); 
+}
+
+
+#menu-management .menu-edit, #menu-settings-column .accordion-container, .comment-ays, .feature-filter, .manage-menus, .menu-item-handle, .popular-tags, .stuffbox, .widget-inside, .widget-top, .widgets-holder-wrap, .wp-editor-container, p.popular-tags, table.widefat, .table.fixed {
+    border-radius: 20px!important;
+    padding: 10px!important;
+}
+.postbox {
+    border-radius: 20px;
+    padding: 10px;
+}
+:root {
+  --radius: 1.67vw;
+  --animation-speed: 100ms;
+  --transition-timing-function: ease;
+  --animation-position-start: center;
+  --animation-size: 0;
+  --margin-side: 6.25vw;
+  --margin-upper-lower: 1.5vw;
+  --margin-page: var(--margin-upper-lower) var(--margin-side);
+  --gap-items: 1.04vw;
+  --color-1: #ffffffc7;
+  --color-2: #3f4346;
+  --color-3: #4e4c4c;
+  --color-4: #556da7;
+  --color-5: #ffffff;
+  --color-6: #404446;
+  --color-7: #d2d2d2;
+  --color-8: #f0f0f0;
+  --color-9: #d8e0f4;
+  --color-10: #8493b9;
+  --color-11: #505050;
+  --color-12: #393f42;
+  --color-13: #4a4242;
+  --color-14: #c5c0c0;
+  --color-15: #18171C;
+  --font-unbounded: "Unbounded";
+  --font-lato: "Lato";
+  --font-size: 0.68vw;
+  --site-size: 1920px;
+  --width-section: calc(100vw - (var(--margin-side) * 2));
+}
+  *:hover {
+    transition: var(--animation-speed) var(--transition-timing-function)!important;
+  }
+
+
+
+body {
+background-size: cover!important;
+    background: url('https://input.su/wp-content/plugins/backend/assets/images/background.jpg');
+    background-attachment: fill;
+    background-position: center;
+   
+    font-family: "ManropeRegular"
+}
+
+
+
+  *,
+  ::before,
+  ::after,
+  :active,
+  :focus,
+  :target,
+  :focus-within,
+  :focus-visible {
+    transition: var(--animation-speed) var(--transition-timing-function)!important;
+    scrollbar-width: thin!important;
+    scrollbar-color: var(--color-4) var(--color-5)!important;
+    font-weight: 400;
+  }
+  ::-moz-selection {
+    background: var(--color-7);
+    color: var(--color-4);
+  }
+
+  ::selection {
+    background: var(--color-7);
+    color: var(--color-4);
+  }
+  
+  
+#wpadminbar{
+background: var(--color-4);
+}  
