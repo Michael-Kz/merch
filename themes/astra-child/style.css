@@ -1,0 +1,12 @@
+/*
+Theme Name: Astra Child
+Description: Дочерняя тема для Astra
+Author: Your Name
+Template: astra
+Version: 1.0.0
+*/
+
+/* Импортируем стили родительской темы */
+@import url("../astra/style.css");
+
+/* Дополнительные стили дочерней темы */
